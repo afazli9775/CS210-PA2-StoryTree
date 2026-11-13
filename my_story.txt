@@ -1,0 +1,91 @@
+
+START_HP 15
+SCENE You enter a haunted forest searching for a legendary treasure.
+HP 0
+LOOT 0
+ITEM none
+CHOICES 3
+LABEL Enter the dark cave
+  SCENE A giant spider attacks you inside the cave.
+  HP -8
+  LOOT 5
+  ITEM Silver Sword
+  CHOICES 2
+  LABEL Fight the giant spider
+    SCENE The spider defeats you with its poisonous bite.
+    HP -10
+    LOOT 10
+    ITEM none
+    CHOICES 0
+  LABEL Escape through a hidden tunnel
+    SCENE You escape safely and discover a silver treasure chest.
+    HP 0
+    LOOT 8
+    ITEM Silver Key
+    CHOICES 0
+LABEL Follow the magical river
+  SCENE You discover a magical fountain that restores your health.
+  HP 5
+  LOOT 3
+  ITEM Healing Potion
+  CHOICES 2
+  LABEL Cross the wooden bridge
+    SCENE You cross the bridge and find an abandoned castle.
+    HP -2
+    LOOT 5
+    ITEM Golden Key
+    CHOICES 2
+    LABEL Enter the treasure room
+      SCENE You discover a room filled with gold and diamonds.
+      HP 0
+      LOOT 15
+      ITEM Golden Crown
+      CHOICES 1
+      LABEL Open the secret treasure chest
+        SCENE You discover a secret passage behind the treasure chest.
+        HP 0
+        LOOT 20
+        ITEM Magic Diamond
+        CHOICES 2
+        LABEL Enter the secret passage
+          SCENE You discover the legendary treasure and become a hero.
+          HP 0
+          LOOT 10
+          ITEM Royal Medal
+          CHOICES 0
+        LABEL Return to the castle
+          SCENE You return safely with your treasure.
+          HP 0
+          LOOT 2
+          ITEM none
+          CHOICES 0
+    LABEL Enter the haunted room
+      SCENE A ghost attacks you but you manage to escape.
+      HP -10
+      LOOT 4
+      ITEM Ancient Shield
+      CHOICES 0
+  LABEL Return to the village
+    SCENE You return home safely with your magical potion.
+    HP 0
+    LOOT 2
+    ITEM none
+    CHOICES 0
+LABEL Climb the mysterious mountain
+  SCENE You encounter a dangerous dragon on the mountain.
+  HP -5
+  LOOT 7
+  ITEM Dragon Shield
+  CHOICES 2
+  LABEL Fight the dragon
+    SCENE The dragon defeats you with its powerful fire.
+    HP -15
+    LOOT 12
+    ITEM none
+    CHOICES 0
+  LABEL Offer food to the dragon
+    SCENE The dragon becomes your friend and gives you treasure.
+    HP 2
+    LOOT 10
+    ITEM Dragon Egg
+    CHOICES 0
